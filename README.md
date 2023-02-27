@@ -34,7 +34,7 @@ Dreamers
 -------------
 <br />
 
-####  #로그인 화면
+####  #회원가입 화면
 ![dreamers2](https://user-images.githubusercontent.com/44343908/221521721-4114a663-b0ca-4adc-9471-8d1427f3b529.PNG)
 
 -------------
