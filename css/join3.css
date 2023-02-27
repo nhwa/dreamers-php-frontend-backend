@@ -1,0 +1,429 @@
+@charset "UTF-8";
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.joinlogo{
+  width:80%;
+  height:auto;
+  margin-top:-45px;
+  margin-bottom:8px;
+  margin-left:9.0%;
+}
+
+clear { clear:both; }
+body{
+   background-image:url(../img/background/bg6.jpg);
+   background-size:cover;
+ }
+
+#join{
+  position:absolute;
+  width:35%;
+  min-width: 600px;
+  height:auto;
+  max-height:950px;
+  margin-top : 20px;
+  margin-left:32.5%;
+  border-radius:20px;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 30px;
+
+background-color:rgba(255,255,255,0.9);
+/*background-blend-mode:multiply;*/
+
+}
+.join-content {
+    /*background-color:#Fff;*/
+    /*opacity:0.8;*/
+}
+
+.join-content form {
+  width:60%;
+min-width: 300px;
+height:80%;
+margin-top:12%;
+margin-bottom:17%;
+margin-left:140px;
+
+}
+.join-content input.inpt {
+  font-size: 14px;
+  display: inline-block;
+  width: 96%;
+  height: 33px;
+  margin-bottom: 12px;
+  padding: 16px 13px;
+  color: #333;
+  border: 1px solid #d9d9d9;
+  background: transparent;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.join-content input.inpt::-webkit-input-placeholder {
+  font-size: 14px;
+  color: #bbb;
+  font-family: 'Lato', sans-serif;
+}
+.join-content input.inpt::-moz-placeholder {
+  font-size: 14px;
+  color: #bbb;
+  font-family: 'Lato', sans-serif;
+}
+.join-content input.inpt::-ms-input-placeholder {
+  font-size: 14px;
+  color: #bbb;
+  font-family: 'Lato', sans-serif;
+}
+.join-content input.inpt:focus {
+    border-color: #bbb;
+}
+
+
+.join-content input.inpt-phone {
+  font-size: 14px;
+  display: inline-block;
+  width: 31%;
+  height: 33px;
+  margin-bottom: 12px;
+  padding: 16px 13px;
+ color: #333;
+  border: 1px solid #d9d9d9;
+  background: transparent;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+
+.join-content input.inpt-phone::-webkit-input-placeholder {
+  font-size: 14px;
+  color: #bbb;
+  font-family: 'Lato', sans-serif;
+}
+.join-content input.inpt-phone::-moz-placeholder {
+  font-size: 14px;
+  color: #bbb;
+  font-family: 'Lato', sans-serif;
+}
+.join-content input.inpt-phone::-ms-input-placeholder {
+  font-size: 14px;
+  color: #bbb;
+  font-family: 'Lato', sans-serif;
+}
+
+
+.join-content input.inpt-post_num {
+  font-size: 14px;
+  display: inline-block;
+  width: 60%;
+  height: 33px;
+  margin-bottom: 12px;
+  padding: 16px 13px;
+    color: #333;
+  border: 1px solid #d9d9d9;
+  background: transparent;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+
+.join-content input.inpt-post_num::-webkit-input-placeholder {
+  font-size: 14px;
+  color: #bbb;
+  font-family: 'Lato', sans-serif;
+}
+.join-content input.inpt-post_num::-moz-placeholder {
+  font-size: 14px;
+  color: #bbb;
+  font-family: 'Lato', sans-serif;
+}
+.join-content input.inpt-post_num::-ms-input-placeholder {
+  font-size: 14px;
+  color: #bbb;
+  font-family: 'Lato', sans-serif;
+}
+
+.join-content input.submit {
+  font-size: 15px;
+  line-height: 42px;
+  display: inline-block;
+  width: 96%;
+  height: 42px;
+  cursor: pointer;
+  vertical-align: middle;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  background: #E54064;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.join-content input.submit:hover {
+  background-color: #118FC9;
+  color: #ffffff;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.join-content submit-wrap {
+  position: relative;
+  width: 100%;
+}
+.join-content submit-wrap a {
+  font-size: 12px;
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #999999;
+}
+.join-content submit-wrap a:hover {
+  text-decoration: underline;
+}
+
+.join-content input:focus {
+  outline: none;
+}
+
+legend {
+  background-color:rgba(255,255,255,0.0);
+}
+/*아이디 체크*/
+.join-content .idWrap {  border: 1px solid #d9d9d9;
+width : 96%;
+padding-left:13px;
+margin-bottom:13px;
+display:inline-block;
+ -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+/*opacity:0.5;*/
+}
+
+.check::-webkit-input-placeholder {
+  font-size: 14px;
+  color: #bbb;
+}
+.check::-moz-placeholder {
+  font-size: 14px;
+  color: #bbb;
+}
+.check::-ms-input-placeholder {
+  font-size: 14px;
+  color: #bbb;
+}
+
+/*.id_check{ border: none; }*/
+.check {
+border:none;
+margin-top:3px;
+height:32px;
+font-size: 14px;
+margin-left:-2px;}
+
+
+/*비밀번호 유효성 체크*/
+.join-content .pwWrap {  border: 1px solid #d9d9d9;
+ width : 96%;
+padding-left:13px;
+margin-bottom:13px;
+display:inline-block;
+ -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;}
+
+.check3::-webkit-input-placeholder {
+  font-size: 14px;
+  color: #bbb;
+  /*background-color:rgba(255,0,0,0.3);*/
+}
+.check3::-moz-placeholder {
+  font-size: 14px;
+  color: #bbb;
+}
+.check3::-ms-input-placeholder {
+  font-size: 14px;
+  color: #bbb;
+}
+
+  .check3 {
+  border:none;
+margin-top:3px;
+height:32px;
+font-size: 14px;
+ color: #333;}
+
+
+ /*비밀번호 확인 체크*/
+ .join-content .pwConfirmWrap {  border: 1px solid #d9d9d9;
+  width : 96%;
+ padding-left:13px;
+ margin-bottom:13px;
+ display:inline-block;
+  -moz-border-radius: 2px;
+   -webkit-border-radius: 2px;
+   border-radius: 2px;}
+
+ .check4::-webkit-input-placeholder {
+   font-size: 14px;
+   color: #bbb;
+ }
+ .check4::-moz-placeholder {
+   font-size: 14px;
+   color: #bbb;
+ }
+ .check4::-ms-input-placeholder {
+   font-size: 14px;
+   color: #bbb;
+ }
+
+   .check4 {
+   border:none;
+ margin-top:3px;
+ height:32px;
+ font-size: 14px;
+  color: #333;}
+
+
+
+/*닉네임 체크*/
+.join-content .nickWrap {  border: 1px solid #d9d9d9;
+ width : 96%;
+padding-left:13px;
+margin-bottom:13px;
+display:inline-block;
+ -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;}
+
+.check2::-webkit-input-placeholder {
+  font-size: 14px;
+  color: #bbb;
+  /*background-color:rgba(255,255,255,.5);*/
+}
+.check2::-moz-placeholder {
+  font-size: 14px;
+  color: #bbb;
+}
+.check2::-ms-input-placeholder {
+  font-size: 14px;
+  color: #bbb;
+}
+
+  .check2 {
+  border:none;
+margin-top:3px;
+height:32px;
+font-size: 14px;
+ color: #333;}
+
+
+/*여기서부터 아저씨 거 테스트 복사한거임*/
+/*이메일 체크부분*/
+.join-content .emailWrap {   border: 1px solid #d9d9d9;
+width : 96%;
+margin-bottom: 13px;
+padding-left:13px;
+display:inline-block;
+ -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;}
+
+
+.check1::-webkit-input-placeholder {
+  font-size: 14px;
+  color: #bbb;
+}
+.check1::-moz-placeholder {
+  font-size: 14px;
+  color: #bbb;
+}
+.check1::-ms-input-placeholder {
+  font-size: 14px;
+  color: #bbb;
+}
+
+.check1 {
+ border:none;
+margin-top:3px;
+height:32px;
+font-size: 14px;}
+
+input[type="text"]{
+  width:100%;
+  /*border:none;*/
+  outline-style:none;
+  background-color:rgba(255,255,255,0);
+}
+
+input[type="password"]{
+  width:200px;
+  /*border:none;*/
+  outline-style:none;
+  background-color:rgba(255,255,255,0);
+}
+
+#input_text{
+  border:none;
+}
+/*여기까지 아저씨 거 테스트 복사한거임*/
+
+
+
+    .check-group{
+               margin:6px 0 13px 0;
+               display:inline-block;
+               width:100%;
+               min-width:100%;
+                 /*min-height:40px;*/
+                 max-width:100%;
+                 /*max-height:40px;*/
+           }
+
+    .check-group label{
+        display:inherit;
+        position:relative;
+        width:47.3%;
+        /*min-width:182px;*/
+        height:40px;
+        font-size:16px;
+        padding:6px 17.2%;
+        border:solid 1px #999;
+        color:white;
+        background:#aaa;
+    }
+
+    .check-group input[type="radio"]{
+        position:absolute;
+    }
+
+    .check-group input:checked + label.m{
+        position:relative;
+        color:white;
+        background:#118FC9;
+        border:solid 1px #118FC9;
+        /*line-height: 40px;*/
+    }
+
+
+    .check-group input:checked + label{
+        position:relative;
+        color:white;
+        background:#118FC9;
+        border:solid 1px #118FC9;
+    }
+
+
+    .post_num_button{border-radius: 2px; width:34.58%; height:34px; border:1px solid #118FC9;
+     background: #118FC9; font-size: 14px; color:#fff; cursor:pointer;
+     padding-bottom:2px;}

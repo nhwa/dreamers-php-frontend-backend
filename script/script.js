@@ -1,0 +1,3 @@
+function winOpen(url,title,left,top,width,height,location,fullscreen,scrollbars,menubar,status,toolbar,resizable){
+window.open(url,title,"left="+(screen.availwidth-660)/2)+",top="+(screen.availHeight-430)/2)+",width="+width+",height="+height+",location="+location+",fullscreen="+fullscreen+",scrollbars="+scrollbars+", menubar="+menubar+",status="+status+",toolbar="+toolbar+",resizable="+resizable);
+}

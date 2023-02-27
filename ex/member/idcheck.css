@@ -1,0 +1,24 @@
+
+
+
+.idWrap { color:blue; border : 1px solid #aaa; }
+
+.pwWrap { color:blue; border : 1px solid #aaa; }
+
+
+
+input[type="text"]{
+  width:100%;
+  /*border:none;*/
+  outline-style:none;
+}
+
+input[type="password"]{
+  width:200px;
+  /*border:none;*/
+  outline-style:none;
+}
+
+#input_text{
+  border:none;
+}

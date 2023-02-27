@@ -1,0 +1,98 @@
+
+
+.mission_container{
+  overflow: hidden;
+  margin: 5% 5%;
+  /*background-color: #ccc;*/
+  width: 90%;
+}
+.mission_title{
+    padding: 10px 15px;
+}
+.mission_name{
+  display: inline-block;
+  padding-right: 15px;
+  font-family: 'Ubuntu', cursive;
+  font-size: 30pt;
+  color: #e54064;
+}
+.mission_side{
+  display: inline-block;
+  font-family: 'Quicksand', cursive;
+  font-size: 10pt;
+}
+.mission_content{
+  /*display: block;*/
+  padding: 10px 10px;
+  border-top: 0.75px solid #eee;
+  border-bottom: 0.75px solid #eee;
+}
+.mission_num,
+.mission_ingorex,
+.mission_category{
+  display: inline-block;
+  text-decoration: none;
+          /*color: #e54063;*/
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 11pt;
+  margin: 5px 15px;
+}
+.mission_subject{
+  overflow:hidden;
+  /*display:inline-block;*/
+  /*background-color:#f00;*/
+}
+.mission_date{
+  float:right;
+  margin:5px 20px;
+}
+.mission_write{
+  display: block;
+  float: right;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+nav{
+  padding-top: 20px;
+  text-align: center;
+}
+.mission_num{
+  width: 20px;
+}
+.mission_ingorex{
+  width: 80px;
+}
+.mission_category{
+  width: 50px;
+}
+.mission_subject{
+  width: 200px;
+}
+#col1 { background-color:#f00;}
+#col2 {
+
+  background-color:#f00;
+}
+p{
+  /*padding-bottom:-2px;*/
+  /*font-size:14px;
+  text-align: center;
+  color:#555555;*/
+  text-align:center !important;
+}
+a {
+	text-decoration:none !important;
+}
+
+a:visited, a:link, a:active {
+/*font-family: 'Noto Sans KR', sans-serif;*/
+font-weight: 500;
+color:#555555;
+text-decoration: none !important;
+}
+a:hover {
+/*font-family: 'Noto Sans KR', sans-serif;*/
+font-weight: 500;	color:#e54063 !important;
+text-decoration: none !important;
+}
