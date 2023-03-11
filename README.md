@@ -3,7 +3,7 @@ Dreamers
 ### Bucketlist Web Development Project
 - 유저가 각자 자신의 버킷리스트를 공유하는 커뮤니티 웹 개발 프로젝트
 
-#### Team Project
+> Team Project
 
 #### 구현   
 
