@@ -3,13 +3,14 @@ Dreamers
 ### Bucketlist Web Development Project
 - 유저가 각자 자신의 버킷리스트를 공유하는 커뮤니티 웹 개발 프로젝트
 
-#### 구현 기능   
+#### Team Project
 
-1) 게시판 - 버킷리스트 글 작성, 댓글, 대댓글, 추천, 정렬 기능(조회순, 추천순)
-2) 회원가입 - 가입, 수정, 중복방지, 탈퇴
-3) Mysql DB - 회원정보, 게시글정보, 댓글 정보, 대댓글정보
-4) 로그인, 로그아웃, 세션
+#### 구현   
 
+1) 게시판 - 버킷리스트 작성, 댓글, 대댓글, 추천, 정렬 기능(조회순, 추천순)
+2) 회원가입 - 가입, 수정, 유효성검사, 탈퇴
+3) Mysql DB 설계 - member(회원정보), makedream(게시글정보), reply(댓글정보), qna(대댓글정보) Table
+4) 로그인, 로그아웃, 세션기능
 
 #### SKILL
 ` HTML5, CSS, JavasCript, PHP, Apache, Mysql`
@@ -19,7 +20,8 @@ Dreamers
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
+
 </p>
 
 
